@@ -137,19 +137,23 @@ button{
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width: auto;
+  max-width: 100%;
 }
 
 
 .equipe {
+  text-align: left;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
+
 }
 
 .membre {
   border-radius: 10px;
-  width: 250px;
+  width: 400px;
   padding: 20px;
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -166,11 +170,13 @@ button{
 }
 
 .membre img{
-  width: 200px;
+  width: 300%;
   height: 200px;
   border-radius: 100px;
   object-fit: cover;
-}
+  max-width: 400px;
+  margin-bottom: 10px;
+  }
 
 .a-propos{
   color: rgb(0, 0, 0);
@@ -191,11 +197,14 @@ button{
 }
 
 .membre,p {
-  line-height: 1.6;
+  line-height: 1.3;
   color: #000000;
-  max-width: 400px;
+  max-width: 500px;
   margin: 80px auto;
   border-radius: 10px;
+  font-size: 18px;
+  margin-bottom: 15px;
+
 }
 
 
